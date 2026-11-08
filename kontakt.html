@@ -13,7 +13,7 @@
     <nav class="navigation" aria-label="Hauptnavigation">
       <span class="nav-item nav-desktop">Ferienpension</span>
       <a class="nav-item nav-desktop" href="hunde.html">Wir suchen ein Zuhause</a>
-      <a class="site-logo" href="index.html" aria-label="Tierheim Tellen – Startseite"><img src="assets/icons/logo.svg" alt="" width="105" height="67"></a>
+      <a class="site-logo" href="index.html" aria-label="Tierheim Tellen – Startseite" data-animation="assets/animations/heart-[better-lottie].svg" data-animation-mode="heart"><img src="assets/icons/logo.svg" alt="" width="105" height="67"></a>
       <span class="nav-item nav-desktop">News</span>
       <a class="nav-item nav-desktop" href="kontakt.html" aria-current="page">Kontakt</a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
@@ -27,7 +27,13 @@
   </header>
   <main>
     <section class="content-section contact-section" aria-labelledby="contact-title">
-      <div class="illustration illustration--contact"><img src="assets/illustrations/contact.svg" alt="" width="90" height="91"></div>
+      <div class="illustration illustration--contact" data-animation="assets/animations/phone-[better-lottie].svg">
+        <img
+          src="assets/illustrations/contact.svg"
+          alt="Telefon-Illustration"
+          class="phone-animation"
+        >
+</div>
       <h1 class="section-title" id="contact-title">Kontaktformular</h1>
       <form class="contact-form" aria-describedby="form-note">
         <div class="form-grid">
@@ -41,7 +47,7 @@
           <fieldset class="form-field choice-group"><legend>Label</legend><div class="choice-placeholder"><span></span>Action Button</div><div class="choice-placeholder"><span></span>Action Button</div><div class="choice-placeholder"><span></span>Action Button</div></fieldset>
         </div>
         <button class="button button--primary" type="submit" disabled aria-describedby="form-note">Absenden</button>
-        <p class="form-note" id="form-note">Das Formular ist eine Vorschau und kann noch nicht gesendet werden.</p>
+        <p class="form-note" id="form-note">Das Formular kann derzeit nicht gesendet werden.</p>
       </form>
     </section>
   </main>
