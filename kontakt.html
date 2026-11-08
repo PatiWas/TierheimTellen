@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kontaktformular des Tierheims Tellen.">
+  <title>Kontakt – Tierheim Tellen</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navigation" aria-label="Hauptnavigation">
+      <span class="nav-item nav-desktop">Ferienpension</span>
+      <a class="nav-item nav-desktop" href="hunde.html">Wir suchen ein Zuhause</a>
+      <a class="site-logo" href="index.html" aria-label="Tierheim Tellen – Startseite"><img src="assets/icons/logo.svg" alt="" width="105" height="67"></a>
+      <span class="nav-item nav-desktop">News</span>
+      <a class="nav-item nav-desktop" href="kontakt.html" aria-current="page">Kontakt</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+      <div class="mobile-menu" id="mobile-menu" hidden>
+        <span class="nav-item">Ferienpension</span>
+        <a class="nav-item" href="hunde.html">Wir suchen ein Zuhause</a>
+        <a class="nav-item" href="index.html">News</a>
+        <a class="nav-item" href="kontakt.html" aria-current="page">Kontakt</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="content-section contact-section" aria-labelledby="contact-title">
+      <div class="illustration illustration--contact"><img src="assets/illustrations/contact.svg" alt="" width="90" height="91"></div>
+      <h1 class="section-title" id="contact-title">Kontaktformular</h1>
+      <form class="contact-form" aria-describedby="form-note">
+        <div class="form-grid">
+          <div class="form-field"><label for="field-1">Label</label><input id="field-1" name="field-1" type="text" aria-describedby="help-1"><small id="help-1">Hilfetext</small></div>
+          <div class="form-field"><label for="field-2">Label</label><input id="field-2" name="field-2" type="text" aria-describedby="help-2"><small id="help-2">Hilfetext</small></div>
+          <div class="form-field"><label for="field-3">Label</label><input id="field-3" name="field-3" type="text"></div>
+          <div class="form-field"><label for="field-4">Label</label><input id="field-4" name="field-4" type="text"></div>
+          <fieldset class="form-field choice-group"><legend>Label</legend><div class="choice-placeholder"><span></span>Action Button</div><div class="choice-placeholder"><span></span>Action Button</div><div class="choice-placeholder"><span></span>Action Button</div></fieldset>
+          <fieldset class="form-field choice-group"><legend>Label</legend><div class="choice-placeholder"><span></span>Action Button</div><div class="choice-placeholder"><span></span>Action Button</div><div class="choice-placeholder"><span></span>Action Button</div><small>Hilfetext</small></fieldset>
+          <fieldset class="form-field choice-group"><legend>Label</legend><div class="choice-placeholder"><span></span>Action Button</div><div class="choice-placeholder"><span></span>Action Button</div><div class="choice-placeholder"><span></span>Action Button</div><small>Hilfetext</small></fieldset>
+          <fieldset class="form-field choice-group"><legend>Label</legend><div class="choice-placeholder"><span></span>Action Button</div><div class="choice-placeholder"><span></span>Action Button</div><div class="choice-placeholder"><span></span>Action Button</div></fieldset>
+        </div>
+        <button class="button button--primary" type="submit" disabled aria-describedby="form-note">Absenden</button>
+        <p class="form-note" id="form-note">Das Formular ist eine Vorschau und kann noch nicht gesendet werden.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-block"><strong>Adresse</strong><span>Tierheim Tellen<br>Tellen 4<br>9216 Hohentannen</span></div>
+    <div class="footer-block"><strong>Telefon</strong><span>078 600 91 20</span><strong>E-Mail</strong><span>tierheim-tellen@bluewin.ch</span></div>
+    <div class="social-icons" aria-label="Kontakt und soziale Medien">
+      <span class="social-icon"><img src="assets/icons/mail.svg" alt="E-Mail" width="44" height="36"></span><img src="assets/icons/phone.svg" alt="Telefon" width="48" height="48"><img src="assets/icons/instagram.svg" alt="Instagram" width="48" height="48"><img src="assets/icons/facebook.svg" alt="Facebook" width="48" height="48">
+    </div>
+  </footer>
+</body>
+</html>
