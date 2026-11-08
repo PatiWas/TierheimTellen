@@ -12,6 +12,6 @@ The Figma designs show two cards on mobile and four on desktop. They also clip t
 
 ## Illustrations and assets
 
-The `.illustration` containers in `css/styles.css` reserve the design's dimensions independently of their contents. The newspaper, dog head and telephone use the SVG animations in `assets/animations/`; they start when visible and pause off-screen. The heart in the navigation plays once on hover or focus and resets on leaving. Static artwork remains as a fallback and is used when reduced motion is enabled. Serve the site with Live Server or another local HTTP server so the SVG timelines can be controlled.
+The `.illustration` containers in `css/styles.css` reserve the design's dimensions independently of their contents. The newspaper, dog head, running dog and telephone use the SVG animations in `assets/animations/`; they start when visible and pause off-screen. The running dog plays once below the news section and scales to fit on mobile. The heart in the navigation plays once on hover or focus and resets on leaving. Static artwork remains as a fallback and is used when reduced motion is enabled. Serve the site with Live Server or another local HTTP server so the SVG timelines can be controlled.
 
 Images, illustrations and icons were exported from the Figma design. Source Sans Pro font files are included locally under `assets/fonts/` with their license.
